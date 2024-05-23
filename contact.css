@@ -1,0 +1,287 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=IM+Fell+English+SC&family=Lobster&family=Londrina+Solid:wght@300&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+/* laptop */
+@media screen and (min-width:601px) {
+
+    body{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        background-image: linear-gradient(#251101,black);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .title{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 10px 0px 10px;
+        /* border: solid #E0E2DB; */
+    }
+
+    h1{
+        padding: 10px 10px 0px 10px;
+        font-family: 'IM Fell English SC', serif;
+        color: whitesmoke;
+        font-size: 40px;
+        text-shadow: 3px 3px 5px white;
+    }
+
+    h2{
+        padding: 10px;
+        font-family: 'Rubik', sans-serif;
+        color: rgba(245, 245, 245, 0.623);
+        font-size: 20px;
+        text-shadow: 2px 2px 6px white;
+    }
+
+    .box{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        padding: 5px;
+        /* border: solid #82a727; */
+    }
+
+    .box form{
+
+        display: flex;
+        flex: 2;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+        padding: 15px;
+        /* border: solid #b92525; */
+    }
+
+    input{
+        display: flex;
+        margin: 5px 0px;
+        padding: 5px;
+        height: 40px;
+        width: 100%;
+        text-indent: 20px;
+        border: none;
+        border-radius: 30px;
+        font-family: 'Cabin', sans-serif;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    textarea{
+        display: flex;
+        align-items: center;
+        height: 30px;
+        margin: 5px 0px;
+        padding: 5px;
+        height: 45px;
+        width: 100%;
+        text-indent: 20px;
+        border: none;
+        border-radius: 30px;
+        font-family: 'Cabin', sans-serif;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    button{
+        height: 50px;
+        width: 8rem;
+        margin-top: 15px;
+        padding: 10px;
+        font-family: 'Rubik', sans-serif;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 45px;
+        color: #E0E2DB;
+        background-color: #723D46;
+        font-size: 20px;
+        letter-spacing: 1px;
+        border: none;
+        text-shadow: 1px 1px 2px #251101;
+        box-shadow: 0px 0px 10px #E0E2DB;
+    }
+    button:hover{
+        background-color:#E0E2DB;
+        color:#723D46 ;
+        box-shadow: 0px 0px 10px #E0E2DB;
+        cursor: pointer;
+        border-radius: 45px;
+        border: none;
+    }
+    
+}
+
+/* mobile */
+@media screen and (max-width:600px)
+{
+
+
+    body{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        text-align: center;
+        background-image: linear-gradient(#251101,black);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .title{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 10px 0px 10px;
+        /* border: solid #E0E2DB; */
+    }
+
+    h1{
+        padding: 5px 5px 0px 5px;
+        font-family: 'IM Fell English SC', serif;
+        color: whitesmoke;
+        font-size: 30px;
+        text-shadow: 3px 3px 5px white;
+    }
+
+    h2{
+        padding: 5px;
+        font-family: 'Rubik', sans-serif;
+        color: rgba(245, 245, 245, 0.623);
+        font-size: 15px;
+        text-shadow: 2px 2px 6px white;
+    }
+
+    .box{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        padding: 5px;
+        /* border: solid #82a727; */
+    }
+
+    .box form{
+
+        display: flex;
+        flex: 2;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 15rem;
+        padding: 10px;
+        /* border: solid #b92525; */
+    }
+
+    input{
+
+        height: 2rem;
+        width: 15rem;
+        margin: 5px 0px;
+        height: 2rem;
+        width: 15rem;
+        padding: 5px;
+        text-indent: 10px;
+        border: none;
+        border-radius: 30px;
+        font-family: 'Cabin', sans-serif;
+        letter-spacing: 1px;
+    }
+
+    textarea{
+        display: flex;
+        align-items: center;
+        height: 2rem;
+        width: 15rem;
+        margin: 5px 0px;
+        padding: 5px;
+        text-indent: 10px;
+        border: none;
+        border-radius: 30px;
+        font-family: 'Cabin', sans-serif;
+        letter-spacing: 1px;
+    }
+
+    button{
+        height: 50px;
+        width: 50%;
+        margin-top: 10px;
+        /* padding: 10px; */
+        font-family: 'Rubik', sans-serif;
+        text-align: center;
+        border-radius: 45px;
+        color: #E0E2DB;
+        background-color: #723D46;
+        font-size: 17px;
+        letter-spacing: 1px;
+        border: none;
+        text-shadow: 1px 1px 2px #251101;
+        box-shadow: 0px 0px 10px #E0E2DB;
+    }
+
+    button:hover{
+        background-color:#E0E2DB;
+        color:#723D46 ;
+        box-shadow: 0px 0px 10px #E0E2DB;
+        cursor: pointer;
+        border-radius: 45px;
+        border: none;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
